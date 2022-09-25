@@ -1,0 +1,242 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 25px 0;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.logo img {
+  vertical-align: bottom;
+}
+
+.menu {
+  margin-left: 244px;
+}
+
+.menu ul {
+  display: flex;
+  gap: 115px;
+}
+
+.menu__item a {
+  font-size: 15px;
+  color: #030305;
+  transition: border-bottom 0.1s ease-in;
+}
+
+.menu__item a:hover {
+  border-bottom: 2px solid #030305;
+}
+
+.hero {
+  background-image: url("../assets/img/background.png");
+  background-size: cover;
+  background-position: center;
+  padding: 104px 0 154px;
+}
+
+.hero__info {
+  max-width: 855px;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 110%;
+  color: #030305;
+  margin-bottom: 40px;
+}
+
+.hero__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #030305;
+  max-width: 500px;
+  margin-bottom: 40px;
+}
+
+.cars {
+  padding: 100px 0;
+}
+
+.cars__title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  color: #030305;
+}
+
+.cars__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cars__item {
+  max-width: 384px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.cars__item img {
+  vertical-align: bottom;
+  transition: all 0.3s;
+}
+
+.cars__item img:hover {
+  transform: scale(1.1);
+}
+
+.item__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #030305;
+  padding: 15px 0 17px;
+}
+
+.item__info {
+  margin-bottom: 15px;
+}
+
+.info__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.info__item {
+  width: 110px;
+  height: 92px;
+}
+
+.info__item img {
+  margin-bottom: 11px;
+}
+
+.cars__btn {
+  width: 100%;
+  padding: 15px;
+  height: 54px;
+}
+
+.price {
+  overflow: hidden;
+}
+
+.price .container {
+  position: relative;
+  padding-bottom: 121px;
+}
+
+.price .cars__title {
+  margin-bottom: 20px;
+}
+
+.price__description {
+  font-size: 16px;
+  line-height: 130%;
+  color: #5d5d5f;
+  margin-bottom: 60px;
+}
+
+.price__form {
+  max-width: 344px;
+}
+
+.price__input {
+  padding: 22px 18px;
+  width: 344px;
+  height: 65px;
+  left: 360px;
+  background: #ffffff;
+  border: 1px solid #5d5d5f;
+  /* border: none; */
+  font-size: 16px;
+  line-height: 130%;
+  color: #000;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.price__btn {
+  width: 100%;
+}
+
+.price__img {
+  position: absolute;
+  bottom: 0;
+  left: 400px;
+}
+
+.footer {
+  border-top: 1px solid #e5e5e5;
+  padding: 25px 0;
+}
+
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright {
+  font-size: 15px;
+  line-height: 18px;
+  text-align: right;
+  color: #030305;
+}
+
+.price__input.ng-touched.ng-valid {
+  border: 1px solid #5d5d5f;
+}
+
+.price__input.ng-touched.ng-invalid {
+  border: 1px solid red;
+}
+
+/* ================================================= */
+
+.car-toggle {
+  display: flex;
+  width: 194px;
+  border: 1px solid gray;
+  margin: 20px 0;
+}
+
+.car-toggle div {
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: black;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+
+.car-toggle div.active {
+  background: #030305;
+  color: #ffffff;
+}
+
+.car .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
